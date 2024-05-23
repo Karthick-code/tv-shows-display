@@ -17,7 +17,7 @@ async function result() {
 }
 function display(x) {
     var card_div = document.createElement("div");
-    card_div.className = "col-lg-12 col-md-8 col-sm-6 ";
+    card_div.className = "col-lg-12 col-md-8 col-sm-6 col d-flex justify-content-center";
     card_div.id = "card";
     if(document.querySelector("#card")!==null){
         var parent = document.querySelector("#card");
